@@ -1,0 +1,20 @@
+name: a_baca_app
+description: "Aplikasi Belajar Membaca Anak-Anak A-BACA berbasis AI"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^3.8.5          # Untuk suara sintetis maskot Bahasa Indonesia
+  speech_to_text: ^6.6.1       # Untuk rekaman & deteksi suara anak (AI Engine)
+  confetti: ^0.7.0             # Efek selebrasi visual
+  google_fonts: ^6.1.0         # Tipografi ramah anak (misal: Nunito/Poppins)
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/           # Untuk efek suara tradisional (saron/angklung)
